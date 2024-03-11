@@ -1,0 +1,21 @@
+.tarjeta {
+    margin-top: 100px;
+    margin-left: 100px;
+    border: 10px solid red;
+    
+    height: auto;
+    min-height: 464px;
+    -webkit-transition: .1s;
+    transition: .1s;
+}
+/* .titulo--tarjeta, .titulo--tarjeta a, .titulo--tarjeta span {
+    font-family: Rajdhani,sans-serif;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.tarjeta p {
+    font-family: Rajdhani,sans-serif;
+    padding: 0 15px 5px;
+    font-size: 1.1em;
+} */

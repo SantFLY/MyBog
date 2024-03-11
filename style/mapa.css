@@ -1,0 +1,159 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #cacaca;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+@media (min-width: 769px) {
+    
+    .titulo {
+        font-size: 36px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        width: auto;
+    }
+    #contenido {
+        padding-bottom: 0px;
+    }
+    #searchInput {
+        font-size: 14px;
+        padding: 8px;
+    }
+    .modal-body{
+        padding: 0%;
+    }
+}
+
+
+#contenido {
+    padding-bottom: 150px;
+}
+.col-md-4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.col-md-4 figure {
+    position: relative;
+    width: 350px;
+    height: 250px;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+.col-md-4 figure img {
+    width: 100%;
+    height: 100%;
+    transition: transform 400ms ease-out;
+}
+
+.col-md-4 figure .capa {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #f2163e;
+    transition: opacity 400ms ease-out, visibility 400ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.col-md-4 figure:hover>.capa {
+    opacity: 1;
+    visibility: visible;
+}
+
+.col-md-4 figure:hover>.capa h3 {
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.col-md-4 figure:hover>img {
+    transform: scale(1.3);
+}
+
+.col-md-4 figure .capa h3 {
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    margin-top: 30px;
+    transition: margin 400ms ease-out;
+}
+
+.col-md-4 figure .capa p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+.modal-body .col-md-4 {
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.modal-body .col-md-4 figure {
+    position: relative;
+    height: 200px;
+    cursor: pointer;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    transition: all 400ms ease-out;
+}
+
+.modal-body .col-md-4 figure img {
+    width: 100%;
+    height: 100%;
+    will-change: transform;
+}
+
+.modal-body .col-md-4 figure .capa {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #f2163e;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 400ms ease-out;
+    text-align: center;
+}
+
+.modal-body .col-md-4 figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-body .col-md-4 figure:hover > img {
+    transform: scale(1.3);
+}
+
+.modal-body .col-md-4 figure .capa h3 {
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 400ms ease-out;
+    margin-top: 30%;
+}
+

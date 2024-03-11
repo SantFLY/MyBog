@@ -1,0 +1,81 @@
+.pm {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hm {
+    height: 1px;
+    background-color: red;
+    margin: 20px 0;
+}
+
+.musical img {
+    width: 100%;
+    max-height: 400px; /* Add this line to limit the height of the images */
+    object-fit: contain; /* This property maintains the image's aspect ratio */
+}
+
+.detalle_evento_info {
+    font-size: 20px;
+}
+
+.detalle_evento_info-mobile {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.image-preview-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    gap: 40%; 
+}
+
+.nav-button{
+    color: #f40303;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .5s;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.nav-button:hover {
+    background: #ff0000;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 15px #ff0202, 0 0 20px #ff0000;
+}
+
+
+
+@media (max-width: 768px) {
+    .row {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .image-preview-container {
+        margin-top: 30px;
+        max-width: 100%;
+    }
+
+    .musical img {
+        max-height: 300px;
+        object-fit: contain;
+    }
+}

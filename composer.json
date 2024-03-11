@@ -1,0 +1,17 @@
+{
+    "name": "user/mybog",
+    "description": "Mybog, turismo",
+    "autoload": {
+        "psr-4": {
+            "User\\Mybog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SantiagoPo",
+            "email": "spolanco23@misena.edu.co"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

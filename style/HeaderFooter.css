@@ -1,0 +1,132 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #ffffff;
+    margin-bottom: 70px;
+}
+
+#header {
+    margin: 0 auto;
+    padding: auto;
+    border-bottom: solid 1px#000000;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.navbar {
+    height: 100px;
+}
+
+.navbar-brand img {
+    width: 250px;
+    margin-right: 0px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+#navbarNav {
+    background-color: rgb(255, 255, 255);
+}
+
+#custom-navbar .navbar-nav .nav-link {
+    font-size: 16px;
+    border-bottom: solid 2px#00000000;
+    transition: 0.3s;
+    position: relative;
+    margin-right: 10px;
+    padding: 37px 70px;
+}
+
+#custom-navbar .navbar-nav .rojo:hover {
+    border-bottom: solid 2px#ff0000;
+    background-color: rgba(255, 0, 0, 0.1);
+    opacity: 1;
+    transition: 0.3s;
+}
+
+#custom-navbar .navbar-nav .amarillo:hover {
+    border-bottom: solid 2px#ffe600;
+    background-color: rgba(255, 251, 0, 0.219);
+    opacity: 1;
+    transition: 0.3s;
+}
+
+#custom-navbar .navbar-nav .nav-link:not(:last-child) {
+    margin-right: 20px;
+}
+@media (max-width: 767px) {
+    #navbarNav {
+        z-index: 9999;
+    }
+    .navbar .navbar-nav .nav-link {
+        border-bottom: solid 2px#ff0000;
+    }
+}
+
+.user-info-container {
+    padding: 10px 100px;
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+/* Estilos del pie de página */
+.footer {
+    width: 100%;
+    color: #f2163e;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #f2163e;
+    
+}
+
+.footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer ul li a {
+    color: #000000;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+    .footer {
+        margin-top: 70px;
+        position: relative;
+    
+    }
+    
+}
+
+#mapa {
+    transform: translate(0%, 10%);
+}
+#calendario {
+    transform: translate(0%, 10%);
+}
+.close {
+    border: none;
+    background-color: transparent;
+}

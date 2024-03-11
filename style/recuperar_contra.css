@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.custom-olvi input{
+    background-image: url("/Imagenes/llave.png");
+    background-position: 2% 50%;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+.custom-olvi .form-group {
+    top: 30px;
+    position: relative;
+}
+
+.custom-olvi .form-control {
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background-color: #f5f5f5;
+    transition: 0.3s;
+}
+
+.custom-olvi .form-control {
+    border: 2px solid #cacaca;
+}
+
+.custom-olvi .form-control:focus {
+    border: 2px solid #ff0000;
+}
+
+.custom-olvi .form-control:valid {
+    border: 2px solid #ffcf11;
+}
+
+.custom-olvi {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 700px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.custom-olvi h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #f2163e;
+    text-align: center;
+}
+
+.custom-olvi p {
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+.custom-olvi a {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    max-width: min-content;
+    position: relative;
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px 20px;
+    color: #f40303;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    letter-spacing: 3px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .custom-olvi a:hover {
+    background: #ff0000;
+    color: #ffcf11;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 15px #ff0202, 0 0 20px #ff0000;
+  }
